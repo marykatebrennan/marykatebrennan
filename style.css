@@ -7,5 +7,12 @@
 p {
   color: #666666;
   font-family: helvetica, arial, sans-serif;
-  
+}
+
+h1 {
+  font-family: georgia, "Times new Roman" , serif;
+}
+
+body {
+  background-color: #ebe3ce;
 }
