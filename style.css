@@ -25,6 +25,9 @@ body {
   text-align: center;
 }
 
+img {
+  border: none;
+}
 #nav {
   padding: 0;
   list-style-type: none;
