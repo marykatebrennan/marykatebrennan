@@ -12,6 +12,11 @@ p {
 
 h1 {
   font-family: 'Lora', serif;
+  text-align: center;
+}
+
+h2 { font-family: 'Lora', serif;
+text-align: center;
 }
 
 body {
