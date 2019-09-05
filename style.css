@@ -15,7 +15,7 @@ h1 {
 }
 
 body {
-  background-color: #ebe3ce;
+  background-color: #FFE5D1;
 }
 
 #nav {
@@ -30,7 +30,7 @@ body {
 #nav a:link, #nav a:visited{
   display:block;
   color: #fff;
-  background-color: #98bf21
+  background-color: #BFAEA1
   font-weight: bold;
   text-align: center;
   text-decoration: none;
