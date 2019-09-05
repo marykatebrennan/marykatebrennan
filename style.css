@@ -22,6 +22,7 @@ text-align: center;
 body {
   background-color: #FFE5D1;
   font-family: 'cabin', sans-serif;
+  text-align: center;
 }
 
 #nav {
