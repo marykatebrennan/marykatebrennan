@@ -19,6 +19,13 @@ h2 { font-family: 'Lora', serif;
 text-align: center;
 }
 
+ul{
+  list-style-type: none;
+}
+
+ol{
+  list-style-type: none;
+}
 body {
   background-color: #FFE5D1;
   font-family: 'cabin', sans-serif;
