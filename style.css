@@ -28,7 +28,7 @@ ol{
   list-style-type: none;
 }
 body {
-  background-color: #FFE5D1;
+  background-color: ##F2DDD0;
   font-family: 'cabin', sans-serif;
   text-align: center;
 }
@@ -39,6 +39,7 @@ img {
 #nav {
   padding: 0;
   list-style-type: none;
+  background-color: #026873
 }
 
 #nav li {
@@ -48,7 +49,7 @@ img {
 
 #nav a:link, #nav a:visited{
   display:block;
-  color: #3E5F63;
+  color: ##024059;
   background-color: #BFAEA1
   font-weight: bold;
   text-align: center;
