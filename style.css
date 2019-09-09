@@ -45,6 +45,7 @@ img {
 #container{
   width: 90%;
   margin: 0, auto;
+  background-color: #028C8C
 }
 #nav li {
   border-bottom: none;
