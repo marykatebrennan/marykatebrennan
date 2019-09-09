@@ -28,7 +28,7 @@ ol{
   list-style-type: none;
 }
 body {
-  background-color: ##F2DDD0;
+  background-color: #F2DDD0;
   font-family: 'cabin', sans-serif;
   text-align: center;
 }
@@ -42,6 +42,10 @@ img {
   background-color: #026873
 }
 
+#container{
+  width: 90%;
+  margin: 0, auto;
+}
 #nav li {
   border-bottom: none;
   list-style-type: none;
