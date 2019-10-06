@@ -5,7 +5,7 @@
 
 
 p {
-  color: ##014059;
+  color: #014059;
   font-family: 'Zilla Slab', serif;
   text-align: center
 }
@@ -66,13 +66,13 @@ img {
   text-decoration: none;
   color: #FFFFFF;
   font-weight: bold;
-  background-color: ##028C8C;
+  background-color: #028C8C;
 
 }
 
 #involvement{
   width: 90%;
-  margin: 5px, auto;
+  margin: 5px auto;
   padding: 5px;
 }
 
