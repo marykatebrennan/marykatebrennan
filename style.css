@@ -51,12 +51,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-#involvement{
-  width: 90%;
-  margin: 5px, auto;
-  padding: 5px;
+  flex-wrap: wrap;
 }
 #nav li {
   border-bottom: none;
@@ -64,6 +59,7 @@ img {
   padding: 25px;
   display: flex;
   flex-direction: row;
+
 }
 
 #nav a:link, #nav a:visited{
@@ -72,4 +68,15 @@ img {
   font-weight: bold;
   background-color: ##028C8C;
 
+}
+
+#involvement{
+  width: 90%;
+  margin: 5px, auto;
+  padding: 5px;
+}
+
+@media screen and (min-width:400px);{
+  display: flex;
+  flex-direction: column;
 }
