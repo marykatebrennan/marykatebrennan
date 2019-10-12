@@ -44,6 +44,9 @@ body {
 img {
   border: none;
 }
+article{
+border-bottom: 0.7em;
+}
 #nav {
   padding: 5px;
   list-style-type: none;
@@ -70,12 +73,32 @@ img {
 
 }
 
-#involvement{
-  width: 90%;
-  margin: 5px auto;
-  padding: 5px;
+.bio{
+  font-family: 'zilla-slab', serif;
 }
 
+.bio img{
+  display: none;
+}
+
+.image {
+grid-area: a;
+}
+
+.section1{
+  grid-area: b;
+  font-family: 'zilla-slab', serif;
+  font-size: 24px;
+}
+
+.section2{
+  grid-area: c;
+}
+
+.section3{
+  grid-area: d;
+  background-color: #026873;
+}
 @media screen and (min-width: 599px){
 #nav {
     display:flex;
@@ -86,6 +109,16 @@ img {
 #nav li {
   display: flex;
   flex-direction: row;
+}
+
+article{
+  display: grid;
+  grid-template-columns: 300px 1fr 1fr;
+  grid-template-areas:
+  "a b b"
+  "c c c"
+  "d d d"
 
 }
+
 }
