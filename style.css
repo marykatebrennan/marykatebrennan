@@ -70,7 +70,6 @@ nav a:link, nav a:visited{
   text-decoration: none;
   color: #FFFFFF;
   font-weight: bold;
-  background-color: #028C8C;
 
 }
 
@@ -118,7 +117,9 @@ grid-area: a;
   display:flex;
   flex-flow:row;
 }
-
+a{
+  background-color: #028C8C
+}
 
 @media screen and (min-width: 599px){
 nav {
@@ -142,6 +143,13 @@ article{
   "e e e";
 }
 
+nav ul li{
+border-top: none;
+}
+.menu-trigger{
+display:none;
+}
+}
 @media screen and (min-width:999px) {
   article{
     display: grid;
