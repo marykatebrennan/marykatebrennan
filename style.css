@@ -20,7 +20,7 @@ h1 {
 
 h2 { font-family: 'Josefin Sans', sans-serif;
 text-align: center;
-font-size: 48pt
+font-size: 40pt
 }
 
 h3{
@@ -103,6 +103,7 @@ grid-area: a;
   grid-area: b;
   font-family: 'zilla-slab', serif;
   font-size: 24px;
+  max-width: 500px;
 }
 
 .section2{
@@ -130,6 +131,7 @@ a{
 .portfolio{
   display: flex;
   flex-flow: column;
+  margin-top: 10px;
 }
 .img1{
   padding-bottom: 10px;
@@ -198,7 +200,7 @@ display:none;
     display: grid;
     grid-template-columns: 300px 1fr 1fr 1fr;
     grid-template-areas:
-    "a b b b"
+    ". a b b"
     "c c d d"
     "c c d d"
     "e e e e"
