@@ -133,16 +133,6 @@ nav li {
   flex-direction: row;
 }
 
-article{
-  display: grid;
-  grid-template-columns: 300px 1fr 1fr;
-  grid-template-areas:
-  "a b b"
-  "c c c"
-  "d d d"
-  "e e e";
-}
-
 nav ul li{
 border-top: none;
 }
